@@ -8,15 +8,13 @@ Wewnątrz drugiej pętli nadpisz zmienną star i za każdym razem kiedy pętla b
 Po opuszczeniu wewnętrznej pętli wyświetl console.log(star).
 Stwórz nowe repozytorium i wyślij tam swoje zadanie, a link do niego wklej poniżej. Pamiętaj o udostępnieniu repozytorium swojemu mentorowi.
 */
-functionName = drawTree
-function drawTree { 
+function drawTree(){ 
 for (var i=0; i<6; i ++){
 	var star='';
-	for (var j=0; j=<i; j ++){
+	for (var j=0; j<=i; j ++){
 		star = '*';
+		}
 		console.log(+star);
-
-	}
 }
 }
-
+drawTree();
